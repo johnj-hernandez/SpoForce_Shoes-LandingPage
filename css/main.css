@@ -1,0 +1,155 @@
+/* Definimos las variables globales para ser mas faciles de manejar y referenciar */
+:root {
+  --color-principal: #333;
+  --color-secundario: #444;
+  --overlay-color: rgba(0, 0, 0, 0.7);
+}
+
+/* se describen las caracteristicas generales del body  */
+body {
+  font-family: "Catamaran", sans-serif;
+  line-height: 1.5;
+  color: var(--color-principal);
+  font-size: 1.1rem;
+}
+/* le damos un mayor espacio entre lineas a los titulos */
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.3;
+}
+/* le quitamos la decoracion a los links */
+a {
+  color: #444;
+  text-decoration: none;
+}
+/* y ele stilo por defecto de las listas */
+ul {
+  list-style: none;
+}
+
+/* las imagenes ocuparan el 100% de sus contenedores o espacio disponible */
+img {
+  width: 100%;
+}
+
+/* se define una clase comunmente utilizada, para centrar el contenido y darle un margin y padding por defecto */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0.2rem 2rem;
+}
+
+/* -------------------------------------------navbar---------------------------------------------------- */
+/* le damos enfasis a una parte del logo  */
+#logo span {
+  color: var(--color-secundario);
+  font-weight: bold;
+}
+
+/* aumentamos el tamaño, y utilizamos flexbox para alinear los items y ponerlos en los extremos */
+nav {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+}
+/* para que la lista no siga vertical le damos la propiedad flex que automaticamente alinea los items horizontalmente */
+nav ul {
+  display: flex;
+}
+/* algo de padding a los li */
+nav ul li {
+  padding: 0px 3px;
+}
+/* un efecto de borde inferior cuando se posiciona el mouse sobre los items */
+nav ul li:hover {
+  border-bottom-width: 1.5px;
+  border-bottom-style: solid;
+  border-bottom-color: #333333;
+}
+/* ENCABEZADO */
+.btn {
+  display: inline-block;
+  background: var(--color-principal);
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 30px;
+}
+
+.btn:hover {
+  background: var(--color-secundario);
+}
+
+header h1 {
+  font-size: 4rem;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+header .container div {
+  margin-left: 5px;
+  flex: 1;
+  text-align: center;
+}
+
+/* seccion2 --------------------------------------- */
+#seccion2 {
+  position: relative;
+  background: url("../img/using.jpg") no-repeat bottom center/cover;
+  height: 600px;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--overlay-color);
+}
+
+#seccion2-contenido {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  max-width: 860px;
+}
+
+#seccion2-contenido h3 {
+  font-size: 2rem;
+}
+
+#seccion2-contenido h2 {
+  font-size: 5rem;
+  margin-top: 1rem;
+}
+
+#seccion2-contenido p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+/* seccion 3 caracteristicas */
+#seccion3-intro {
+  text-align: center;
+  margin: 1rem auto;
+  padding: 0 5rem;
+}
+
+#seccion3-intro h1 {
+  font-size: 3rem;
+}
