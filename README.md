@@ -2,4 +2,4 @@
 
 
 ## Deployment:
-### https://johnj-hernandez.github.io/NewsLetter/
+### https://johnj-hernandez.github.io/SpoForce_Shoes-LandingPage/
