@@ -10,6 +10,11 @@
     />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <!-- importamos el codigo de iconos externo -->
+    <script
+      src="https://kit.fontawesome.com/982d45a909.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>SpoForce Shoes</title>
   </head>
@@ -20,7 +25,7 @@
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#seccion2">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="subscribirse"> Subscribirse</a></li>
       </ul>
     </nav>
 
@@ -58,7 +63,7 @@
 
     <section id="seccion3" class="container">
       <div id="seccion3-intro">
-        <h1>Sorprendente Funcionalidades</h1>
+        <h1>Sorprendentes Funcionalidades</h1>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
           doloremque? Aut quas sapiente at quia nobis ullam officia dolorem
@@ -66,7 +71,83 @@
         </p>
       </div>
 
-      <div></div>
+      <div id="caracteristicas">
+        <div class="item card">
+          <i class="fas fa-mobile-alt"></i>
+          <h4>Conexion con tu Smartphone</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+            laudantium, veniam similique ea temporibus optio eos, harum
+            reiciendis assumenda earum aliquid! Assumenda iure odio quas! Velit
+            quo quis facere nisi!
+          </p>
+        </div>
+        <div class="item card">
+          <i class="fas fa-chart-bar"></i>
+          <h4>Multiples sensores</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+            laudantium, veniam similique ea temporibus optio eos, harum
+            reiciendis assumenda earum aliquid! Assumenda iure odio quas! Velit
+            quo quis facere nisi!
+          </p>
+        </div>
+        <div class="item card">
+          <i class="fas fa-biking"></i>
+          <h4>Modo deporte</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+            laudantium, veniam similique ea temporibus optio eos, harum
+            reiciendis assumenda earum aliquid! Assumenda iure odio quas! Velit
+            quo quis facere nisi!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="preventa">
+      <div class="overlay">
+        <div id="preventa-content">
+          <form action="">
+            <h3>Registrate ahora</h3>
+            <h5>Llena el siguiente formulario y se el primero en probarlos</h5>
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Nombre....."
+            />
+            <input
+              type="text"
+              name="apellido"
+              id="apellido"
+              placeholder="Apellido.."
+            />
+            <input
+              type="number"
+              name="telefono"
+              id="telefono"
+              placeholder="Telefono...."
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Correo Electronico...."
+            />
+            <input type="submit" value="subscribirse" class="btn" />
+          </form>
+          <div>
+            <h4>SE PARTE DE LOS PRIMEROS EN PROBARLO</h4>
+            <H2>Y RECIBE 20% DE DESCUENTO</H2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              debitis quo voluptatibus similique voluptatum porro ullam expedita
+              placeat non cumque.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
