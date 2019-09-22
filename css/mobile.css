@@ -1,0 +1,86 @@
+nav {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+
+.container {
+  padding: 2px;
+}
+
+#logo {
+  font-size: 1.5rem;
+}
+
+/* header */
+img {
+  margin-top: 10px;
+}
+header .container {
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header .container div {
+  margin-bottom: 10px;
+}
+
+/*seccion 2*/
+
+#seccion2-contenido {
+  padding: 5px;
+}
+#seccion2-contenido h3 {
+  font-size: 1.2rem;
+}
+
+#seccion2-contenido h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+#seccion2-contenido p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+/*seccion 3*/
+#seccion3-intro {
+  text-align: center;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+#caracteristicas {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+#caracteristicas .item {
+  width: 400px;
+  text-align: center;
+}
+
+/* preventa/subscripcion */
+#preventa-content {
+  flex-direction: column-reverse;
+}
+
+#preventa form {
+  height: 50%;
+}
+
+#preventa-content div {
+  height: 50%;
+}
+
+#preventa {
+  padding-top: 10px;
+  height: 600px;
+}
