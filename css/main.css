@@ -24,12 +24,12 @@ a {
   color: #444;
   text-decoration: none;
 }
-/* y ele stilo por defecto de las listas */
+/* y el estilo por defecto de las listas */
 ul {
   list-style: none;
 }
 
-/* las imagenes ocuparan el 100% de sus contenedores o espacio disponible */
+/* las imagenes ocuparan el 100% de sus contenedores o espacio disponible la altura sera modificada automaticamente al verse afectado el ancho */
 img {
   width: 100%;
 }
@@ -71,6 +71,8 @@ nav ul li:hover {
   border-bottom-color: #333333;
 }
 /* ENCABEZADO */
+
+/* apariencia de los botones */
 .btn {
   display: inline-block;
   background: var(--color-principal);
@@ -86,6 +88,7 @@ nav ul li:hover {
   background: var(--color-secundario);
 }
 
+/* margenes tamaño y alineamiento de el encabezado */
 header {
   margin-bottom: 10px;
 }
@@ -106,12 +109,13 @@ header .container div {
 }
 
 /* seccion2 --------------------------------------- */
+/* le ponemos el fondo a la seccion y un alto determinado */
 #seccion2 {
   position: relative;
   background: url("../img/using.jpg") no-repeat bottom center/cover;
   height: 600px;
 }
-
+/* le agregamos el overlay con posicion absoluta y ancho y alto automaticas */
 .overlay {
   height: 100%;
   width: 100%;
@@ -120,7 +124,7 @@ header .container div {
   left: 0;
   background-color: var(--overlay-color);
 }
-
+/* el contenido de la secion dos,  con su alineamiento y respectivo tamaño */
 #seccion2-contenido {
   color: #fff;
   height: 100%;
@@ -158,6 +162,7 @@ header .container div {
   font-size: 3rem;
 }
 
+/* hacemos las caracteristicas(div que contiene las cartas) un contenedor flex y se le da la propiedad para que el espacio entre las cartas sea el mismo */
 #caracteristicas {
   margin: 5px;
   display: flex;
@@ -194,13 +199,14 @@ header .container div {
 
 /* seccion final pre venta con formulario */
 
+/* nuevamente se le da un fondo con una capa socura */
 #preventa {
   position: relative;
   background: url("../img/running.jpg") no-repeat center center/cover;
   height: 500px;
   color: white;
 }
-
+/* eñ formulario con un fondo que resalte del fondo, */
 #preventa form {
   background: rgba(0, 0, 0, 0.35);
   flex: 1;
@@ -213,7 +219,8 @@ header .container div {
   font-size: 1rem;
   color: #888888;
 }
-
+/* hacemos que los inputs ocupen el ancho del contenedor y le cambiamos la fuente del placeHolder y de su contenido */
+/* display block para  que solo haya un campo por renglon */
 #preventa form input {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 2px;
@@ -222,6 +229,7 @@ header .container div {
   margin-bottom: 15px;
 }
 
+/* y para terminar el alineamiento,margen y tamaño del contenido */
 #preventa-content {
   height: 100%;
   display: flex;

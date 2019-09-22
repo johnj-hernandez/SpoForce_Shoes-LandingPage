@@ -1,3 +1,5 @@
+/* La inclusion de este Css se hace con el objetivo de dotar a la pagina de cierta capacidad de respuesta o responsiveness, los tamaños de fuentes son reducidos en varios casos, y se utiliza la propiedad flexdirection para que los flex item ahora no se muestren como filas sino como columnas dandoles mas espacio para mostrar sus contenidos en espacios pequeños, por la misma razon se cambian algunos margenes y padding */
+
 nav {
   flex-direction: column;
   justify-content: center;
@@ -68,6 +70,7 @@ header .container div {
 }
 
 /* preventa/subscripcion */
+/* le cambiamos el orden , ponemos el enunciado antes del formulario */
 #preventa-content {
   flex-direction: column-reverse;
 }
